@@ -4,7 +4,12 @@ module.exports = {
     "./**/*.{html,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'segment': ['SevenSegment'],
+        'beon': ['Beon'],
+      }
+    },
   },
   plugins: [],
 }
