@@ -1,0 +1,17 @@
+.animate-scale {
+    animation: scale 1000ms infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(0.8);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
