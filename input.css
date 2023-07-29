@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: SevenSegment;
+    src: url(Assets/Fonts/SevenSegment.ttf);
+}
+
+@font-face {
+    font-family: Beon;
+    src: url(Assets/Fonts/BeonWebFont.ttf);
+}
+
 body {
     @apply bg-black text-white
 }
