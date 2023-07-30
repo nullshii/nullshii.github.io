@@ -8,13 +8,11 @@ var frame = 0;
 function tick() {
     var time = Date.now();
     frame++;
-
-    if (time - startTime > 1000) {
+    if (time - startTime > 100) {
         fpsCounter.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(0);
         startTime = time;
         frame = 0;
     }
-
     window.requestAnimationFrame(tick);
 }
 tick();
