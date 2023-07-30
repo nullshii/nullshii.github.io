@@ -1,6 +1,6 @@
 var fpsCounter = document.createElement("div");
 fpsCounter.className = "fixed bottom-0 left-0 font-segment text-green-500 text-base";
-document.querySelector("body").appendChild(fpsCounter);
+document.body.appendChild(fpsCounter);
 
 var startTime = Date.now();
 var frame = 0;
